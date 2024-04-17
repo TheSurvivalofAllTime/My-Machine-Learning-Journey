@@ -17,3 +17,8 @@ https://medium.com/@nicholasurvive/data-blueprint-organizing-hospital-and-indust
 
 ## Unveiling the Potential: Exploring Artificial Neural Networks in Brain Tumor Detection and Beyond
 https://www.linkedin.com/pulse/unveiling-potential-exploring-artificial-neural-networks-prenga-zkwpf/?trackingId=zcqzqdKFRSedPupNz4fvrg%3D%3D
+
+
+## Model Evaluation in Machine Learning: Unveiling Shortcomings Through ROC Curve Analysis in Binary and Multiclass Classification
+
+https://www.linkedin.com/pulse/model-evaluation-machine-learning-unveiling-through-roc-prenga-g9gcf/
