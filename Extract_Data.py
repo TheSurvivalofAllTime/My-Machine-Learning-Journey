@@ -87,7 +87,7 @@ def load_images_and_label_them(directory):
 
           if image is not None:
               #Resize the images to 224 x 224 to a uniform shape
-              image = cv2.resize(image, (220, 220))
+              image = cv2.resize(image, (200, 200))
 
               # Append the images, the numeric labels and the image names
 

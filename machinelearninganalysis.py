@@ -29,11 +29,10 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
 import scipy
 from sklearn import metrics
-import random
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
-import random
+
 
 
 
@@ -234,7 +233,7 @@ print(classification_report(Y_test_MRI, predicted_classes, target_names= target_
 ## the second class (1) to the second column, and so on.
 ## We iterate over the testing dataset, and if we encounter a specific class label,
 ## we set the corresponding column value to 1 and the rest to 0.
-
+import random
 def next_Binarize(labels):
 
     print('Assuming that your classes are arranged numerically from 0 to n.')

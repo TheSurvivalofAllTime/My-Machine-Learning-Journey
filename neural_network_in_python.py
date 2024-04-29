@@ -45,20 +45,20 @@ labels_test = Extract_Data.Labels_test_shuffled
 
 
 
-print('Traning dataset shape: ', X_train.shape)
-print('Traning Labels shape: ', Y_train.shape)
-print('Testing dataset shape: ', X_test.shape)
-print('Testing labels shape: ', Y_test.shape)
+# print('Traning dataset shape: ', X_train.shape)
+# print('Traning Labels shape: ', Y_train.shape)
+# print('Testing dataset shape: ', X_test.shape)
+# print('Testing labels shape: ', Y_test.shape)
 
 """### <span style="color:blue"> Split the training dataset into training and validation sets </span>"""
 
 # Split the training dataset into training and validation sets
 X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.1, random_state=42)
 
-print("Training dataset shape:", X_train.shape)
-print("Training Labels shape:", Y_train.shape)
-print("Validation dataset shape:", X_val.shape)
-print("Validation labels shape:", Y_val.shape)
+# print("Training dataset shape:", X_train.shape)
+# print("Training Labels shape:", Y_train.shape)
+# print("Validation dataset shape:", X_val.shape)
+# print("Validation labels shape:", Y_val.shape)
 
 """#
 
@@ -78,16 +78,16 @@ class_names = {
 # #######################################################################################################
 """
 
-plt.figure(figsize=(20,20))
+# plt.figure(figsize=(20,20))
 
-for k in range(9):
-    plt.subplot(3, 3, k+1)
-    plt.imshow(X_val[k],cmap=plt.cm.binary)
-    plt.grid(False)
-    plt.xticks([])
-    plt.yticks([])
-    plt.title(class_names[Y_val[k]])
-plt.show()
+# for k in range(9):
+#     plt.subplot(3, 3, k+1)
+#     plt.imshow(X_val[k],cmap=plt.cm.binary)
+#     plt.grid(False)
+#     plt.xticks([])
+#     plt.yticks([])
+#     plt.title(class_names[Y_val[k]])
+# plt.show()
 
 """# <span style='color: olive' > Normalize the pixel values of the images to the range [0, 1] </span>"""
 
@@ -96,11 +96,11 @@ x_test_tensorflow = X_test.copy() / 255.0
 x_train_tensorflow = X_train.copy() / 255.0
 X_val = X_val.copy()/255.0
 
-# Print the range of normalized pixel values for both training and testing datasets
-print('Normalized pixel values in training dataset: '
-      ' min={}, max={}'.format(x_train_tensorflow.min(), x_train_tensorflow.max()))
-print('Normalized pixel values in testing dataset: '
-      ' min={}, max={}'.format(x_test_tensorflow.min(), x_test_tensorflow.max()))
+# # Print the range of normalized pixel values for both training and testing datasets
+# print('Normalized pixel values in training dataset: '
+#       ' min={}, max={}'.format(x_train_tensorflow.min(), x_train_tensorflow.max()))
+# print('Normalized pixel values in testing dataset: '
+#       ' min={}, max={}'.format(x_test_tensorflow.min(), x_test_tensorflow.max()))
 
 
 
@@ -186,7 +186,7 @@ class Use_Model(object):
             keras.utils.set_random_seed(seed)
 
         self.compile_model()
-        self.model.summary()
+        #self.model.summary()
 
 
         self.history=self.model.fit(self.train_data,
@@ -371,11 +371,11 @@ class Use_Model(object):
 # #######################################################################################################
 """
 
-model_use_statistics = Use_Model( x_train_tensorflow, X_val, x_test_tensorflow, Y_train, Y_val, Y_test)
+#model_use_statistics = Use_Model( x_train_tensorflow, X_val, x_test_tensorflow, Y_train, Y_val, Y_test)
 
 #model_use.Fit(  seed=False)
 
-model_use_statistics.make_boxplot(50, boxplot=True)
+#model_use_statistics.make_boxplot(50, boxplot=True)
 
 model_use = Use_Model( x_train_tensorflow, X_val, x_test_tensorflow, Y_train, Y_val, Y_test)
 
@@ -383,10 +383,10 @@ model_use.Fit(  seed=True)
 
 y_pred_probabilities, predicted_classes =model_use.predic_proba_and_labels()
 
-model_use.Display_Confusion_Matrix()
+# model_use.Display_Confusion_Matrix()
 
-model_use.Show_Classification_Report()
-model_use.plot_training_history()
+# model_use.Show_Classification_Report()
+# model_use.plot_training_history()
 
 
 
@@ -441,7 +441,7 @@ def plot_with_prob(index_start,index_finish,  probs, true_label, images):
         plt.tight_layout()
     plt.show()
 
-plot_with_prob(101,109,  y_pred_probabilities, Y_test, x_test_tensorflow)
+#plot_with_prob(101,109,  y_pred_probabilities, Y_test, x_test_tensorflow)
 
 
 
