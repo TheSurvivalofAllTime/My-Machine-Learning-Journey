@@ -31,3 +31,8 @@ ________________________________________________________________________________
 
 ## The Power of Deep Learning: Convolutional Neural Networks - Architecture's Structure, Implementation, and its Significance in Medical Imaging Analysis
 https://www.linkedin.com/pulse/power-deep-learning-convolutional-neural-networks-structure-prenga-m4xtf?trk=article-ssr-frontend-pulse_more-articles_related-content-card
+
+
+
+## Comparative Analysis of U-Net and Fully Convolutional Networks for Semantic Segmentation in Biomedical Imaging
+https://www.linkedin.com/pulse/comparative-analysis-u-net-fully-convolutional-networks-prenga-obfzf?trk=public_post_feed-article-content
