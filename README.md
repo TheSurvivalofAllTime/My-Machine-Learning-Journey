@@ -11,9 +11,10 @@ covering topics ranging from deep learning in computer vision to
 unsupervised learning. Now, we don't know what tomorrow might bring.
 
 Here are some of my published articles:
+#
+## Principal Component Analysis (PCA): How Intuitive Could It Be?
+https://www.linkedin.com/pulse/principal-component-analysis-pca-how-intuitive-could-nikolin-prenga-1cvcf/
 
-## Data Blueprint: Organizing Hospital and Industry Data for Real-World Machine Learning Design, Labeling, and Dataset Optimization
-https://medium.com/@nicholasurvive/data-blueprint-organizing-hospital-and-industry-data-for-real-world-machine-learning-design-2a8f05598cfa
 
 #
 ## Unveiling the Potential: Exploring Artificial Neural Networks in Brain Tumor Detection and Beyond
@@ -38,3 +39,8 @@ https://www.linkedin.com/pulse/power-deep-learning-convolutional-neural-networks
 #
 ## Comparative Analysis of U-Net and Fully Convolutional Networks for Semantic Segmentation in Biomedical Imaging
 https://www.linkedin.com/pulse/comparative-analysis-u-net-fully-convolutional-networks-prenga-obfzf?trk=public_post_feed-article-content
+
+#
+## Data Blueprint: Organizing Hospital and Industry Data for Real-World Machine Learning Design, Labeling, and Dataset Optimization
+https://medium.com/@nicholasurvive/data-blueprint-organizing-hospital-and-industry-data-for-real-world-machine-learning-design-2a8f05598cfa
+
