@@ -1,0 +1,5 @@
+train: Yolo_v11_Nikolin_Dataset/train/images
+val: Yolo_v11_Nikolin_Dataset/val/images
+
+nc: 4
+names: ['Glioma', 'Meningioma', 'Pituitary', 'No Tumor']
