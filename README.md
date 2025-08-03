@@ -11,6 +11,12 @@ covering topics ranging from deep learning in computer vision to
 unsupervised learning. Now, we don't know what tomorrow might bring.
 
 Here are some of my published articles:
+
+# 
+## End-to-End Tumor Detection with YOLOv11/v12: Creating Annotated Datasets and Real-Time Inference for Object Detection in Medical Imaging
+https://www.linkedin.com/pulse/end-to-end-tumor-detection-yolov11v12-creating-annotated-prenga-sbzvf/?trackingId=rYtcCym5QYWVQz2rmSkltA%3D%3D
+
+
 #
 ## Principal Component Analysis (PCA): How Intuitive Could It Be?
 https://www.linkedin.com/pulse/principal-component-analysis-pca-how-intuitive-could-nikolin-prenga-1cvcf/
